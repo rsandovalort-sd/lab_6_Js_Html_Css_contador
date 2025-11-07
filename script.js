@@ -19,10 +19,11 @@ document.getElementById("aumentar").addEventListener('click', function(){
 document.getElementById("disminuir").addEventListener('click', function(){
     const intervalo = setInterval(function(){
         numero.textContent = contador;
-        if (contador > limite_min){
-            if (contador > 0){
-                contador--;
-            }
-        }   
+        if (contador <= limite_min){
+            clearInterval(intervalo);
+        }else{
+            contador--;
+            numero.textContent = contador;
+        }  
     }, 500); 
 });
