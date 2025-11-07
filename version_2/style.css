@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e2e5eb;
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+  color: #4d689e
+}
+
+.tarjeta {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-left: 4px solid #feffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  align-items: center;
+  box-sizing: border-box;  /* <-- Esto es clave */
+}
+
+#contador{
+  width: 40%;
+  height: 40%;
+  background: #e2e5eb;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding: 5px 10px;
+  font-size: 100px; 
+  border-left: 4px solid #feffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.miBoton {
+  background: #b1d3d3;
+  color: rgb(16, 19, 19);
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.miBoton:hover {
+  background: #4d689e;
+  color: #c4c7c7;
+}
+
+#obs{
+  font-size: small;
+  color:rgb(43, 31, 97)
+}

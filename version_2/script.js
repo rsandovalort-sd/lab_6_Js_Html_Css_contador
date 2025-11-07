@@ -20,7 +20,7 @@ document.getElementById("disminuir").addEventListener('click', function(){
     const intervalo = setInterval(function(){
         numero.textContent = contador;
         if(contador <= 10) {
-            numero.style.color = "black";
+            numero.style.color = "b";
         }
         if (contador <= limite_min){
             clearInterval(intervalo);
