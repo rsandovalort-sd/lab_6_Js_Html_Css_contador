@@ -19,6 +19,9 @@ document.getElementById("aumentar").addEventListener('click', function(){
 document.getElementById("disminuir").addEventListener('click', function(){
     const intervalo = setInterval(function(){
         numero.textContent = contador;
+        if(contador <= 10) {
+            numero.style.color = "black";
+        }
         if (contador <= limite_min){
             clearInterval(intervalo);
         }else{
